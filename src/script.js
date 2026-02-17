@@ -128,7 +128,7 @@ function create() {
     fontStyle: 'bold'
     }).setOrigin(0.5).setInteractive({ useHandCursor: true }); // Hace que aparezca la "manita" al pasar por encima
 
-    let titulo = this.add.text(400, 150, 'CONCIENCIADODS', { fontSize: '48px', fill: '#fff' }).setOrigin(0.5);
+    let titulo = this.add.text(400, 150, 'CONCIENCIANDONODS', { fontSize: '48px', fill: '#fff' }).setOrigin(0.5);
     let txtJugar = this.add.text(400, 300, 'PULSA PARA JUGAR', { fontSize: '24px', fill: '#000' }).setOrigin(0.5);
     let txtControles = this.add.text(400, 500, 'Controles: Flechas para moverte', { fontSize: '18px', fill: '#ff0' }).setOrigin(0.5);
 
@@ -349,4 +349,5 @@ function mostrarAviso(mensaje, escena) {
     escena.time.delayedCall(1000, () => {
         worldText.setAlpha(0);
     });
+
 }
