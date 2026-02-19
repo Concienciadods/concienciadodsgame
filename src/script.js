@@ -281,7 +281,7 @@ function collectStar(player, star) {
         }
     } else if (score >= 108) {
         this.fondo.setTint(0xF1F5F9); // Cambia a blanco/gris
-        if (score===96) {
+        if (score===108) {
             mostrarAviso("MUNDO INFINITO X10", this);
             mostrarAviso("Has llegado al limite de mundos disponibles", this);
         }
@@ -351,3 +351,4 @@ function mostrarAviso(mensaje, escena) {
     });
 
 }
+
